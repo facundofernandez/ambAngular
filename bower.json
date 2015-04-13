@@ -1,0 +1,14 @@
+{
+    "name": "MiApp",
+    "version": "0.0.1",
+    "dependencies": {
+        "normalize-css": "*",
+        "modernizr": "*",
+        "jquery": "~2.0.2",
+        "underscore": "*",
+        "backbone": "*",
+        "requirejs": "*",
+        "mustache": "*",
+        "angularjs": "*"
+    }
+}

@@ -1,0 +1,24 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.puntero{
+	cursor: pointer;
+}
+
+.puntero:hover{
+	color: blue;
+}
+
+.margeDer{
+	margin-right: 10px
+}
+
+.msjError{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 9999;
+}

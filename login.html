@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="app">
+	<head>
+		<title>ABM AngularJS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+
+	</head>
+	<body>
+		
+		<div class="container">
+
+			<form class="form-signin" ng-controller="contLogin">
+				<h2 class="form-signin-heading"></h2>
+				<label for="inputEmail" class="sr-only">Usuario</label>
+				<input type="text" id="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="" ng-model="login.usuario">
+				<label for="inputPassword" class="sr-only">Contraseña</label>
+				<input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="" ng-model="login.contrasenia">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" value="remember-me"> Recordar
+					</label>
+				</div>
+				<button class="btn btn-lg btn-primary btn-block" type="button" ng-click="ingresar()">Ingresar</button>
+			</form>
+
+		</div> <!-- /container -->
+
+		
+		<script src="js/angular.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+	
+</html>
